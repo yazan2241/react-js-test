@@ -22,7 +22,7 @@ const dashBoardNavTree = [
     submenu: [
       {
         key: 'Двшборд',
-        path: `${APP_PREFIX_PATH}/двшборд`,
+        path: `${APP_PREFIX_PATH}/clients`,
         title: 'Двшборд',
         icon: DashboardOutlined,
         breadcrumb: false,
@@ -30,14 +30,14 @@ const dashBoardNavTree = [
       },
       {
         key: 'Каталог',
-        path: `${APP_PREFIX_PATH}/каталог`,
+        path: `${APP_PREFIX_PATH}/chess`,
         title: 'Каталог',
         icon: ShoppingCartOutlined,
         breadcrumb: false,
         submenu: [
           {
             key: 'Товары',
-            path: `${APP_PREFIX_PATH}/товары`,
+            path: `${APP_PREFIX_PATH}/chess`,
             title: 'Двшборд',
             breadcrumb: false,
             submenu: []

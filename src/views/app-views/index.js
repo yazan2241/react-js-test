@@ -10,6 +10,7 @@ export const AppViews = () => {
       <Switch>
         <Route path={`${APP_PREFIX_PATH}/home`} component={lazy(() => import(`./home`))} />
         <Route path={`${APP_PREFIX_PATH}/clients`} component={lazy(() => import(`./clients`))} />
+        <Route path={`${APP_PREFIX_PATH}/chess`} component={lazy(() => import(`./chess`))} />
         <Route path={`${APP_PREFIX_PATH}/edit-profile/:id`} component={lazy(() => import('./editProfile'))} />
         <Redirect from={`${APP_PREFIX_PATH}`} to={`${APP_PREFIX_PATH}/clients`} />
       </Switch>

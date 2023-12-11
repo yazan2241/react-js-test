@@ -23,12 +23,4 @@ clientService.getUser = function (params) {
   }
 
   
-// clientService.setPost = function (data) {
-//   return fetch({
-//     url: '/posts',
-//     method: 'post',
-//     data: data
-//   })
-// }
-
 export default clientService

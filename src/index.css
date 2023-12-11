@@ -15,3 +15,32 @@
 .loading .ant-spin {
   color: #3e79f7;
 }
+
+.save-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.save-button > button {
+  background-color: #3e79f7;
+  text-align: center;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.save-button > input {
+  background-color: green;
+  text-align: center;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
